@@ -2,7 +2,7 @@
   <mat-form-field appearance = "standard">
      <input matInput placeholder = "Input">
      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-     <mat-hint>Hello world</mat-hint>
+     <mat-hint>Sample Hint</mat-hint>
   </mat-form-field>
   <mat-form-field appearance = "fill">
      <textarea matInput placeholder = "Textarea"></textarea>
@@ -29,5 +29,10 @@
         <mat-option value = "B">B</mat-option>
         <mat-option value = "C">C</mat-option>      
      </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <example-tel-input placeholder="Phone number" disable = "true" required></example-tel-input>
+    <mat-icon matSuffix>phone</mat-icon>
+    <mat-hint>Include area code</mat-hint>
   </mat-form-field>
 </div>

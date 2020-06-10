@@ -6,9 +6,11 @@ import {MatInputModule} from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { CustomMatTeleComponent } from './components/custom-mat-tele/custom-mat-tele.component';
 @NgModule({
    declarations: [
-      AppComponent
+      AppComponent,
+      CustomMatTeleComponent
    ],
    imports: [
       BrowserModule,
